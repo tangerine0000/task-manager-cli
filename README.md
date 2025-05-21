@@ -45,11 +45,18 @@ A simple and efficient command-line task management tool built with Node.js and 
 - **Logging System**: Add comprehensive logging for debugging
 - **Documentation**: Add API documentation and contribution guidelines
 
+## Prerequisites
+
+Before installing the Task Manager CLI, ensure you have the following installed:
+- Node.js (version 14.0.0 or higher)
+- npm (comes with Node.js)
+- Git (for cloning the repository)
+
 ## Installation
 
 1. Clone this repository:
 ```bash
-git clone [your-repository-url]
+git clone https://github.com/tangerine0000/task-manager-cli.git
 cd task-manager-cli
 ```
 
@@ -57,6 +64,13 @@ cd task-manager-cli
 ```bash
 npm install
 ```
+
+3. Verify the installation:
+```bash
+npm start -- help
+```
+
+If you see the help message, the installation was successful!
 
 ## Usage
 
